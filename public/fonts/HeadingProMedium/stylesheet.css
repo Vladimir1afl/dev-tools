@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Heading Pro Medium';
+    src: url('subset-HeadingProMedium-BlackItalic.woff2') format('woff2'),
+        url('subset-HeadingProMedium-BlackItalic.woff') format('woff'),
+        url('subset-HeadingProMedium-BlackItalic.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+}
+

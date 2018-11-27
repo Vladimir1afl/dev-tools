@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Chalkboard SE';
+    src: url('subset-ChalkboardSE-Light.woff2') format('woff2'),
+        url('subset-ChalkboardSE-Light.woff') format('woff'),
+        url('subset-ChalkboardSE-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
