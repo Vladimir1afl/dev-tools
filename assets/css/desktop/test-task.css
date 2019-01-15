@@ -1,0 +1,234 @@
+.screen-1 {
+    font-family: 'BudBoldCyr', sans-serif;
+    position: relative;
+    width: 1920px;
+    height: 1080px;
+    overflow: hidden;
+    color: #fff;
+    /* ↓ компенсирует полоску браузера в макете */
+    margin-top: -70px;
+    &__shape-1 {
+        position: absolute;
+        left: 677.57px;
+        top: 396px;
+        z-index: 2;
+    }
+    &__shape-2 {
+        position: absolute;
+        left: 1118px;
+    }
+    &__shape-3 {
+        position: absolute;
+        top: 220px;
+        background-color: #C62639;
+        @mixin i Budboat1-6, jpg;
+        background-position: -314px -20px;
+        background-size: 79.44%;
+        clip-path: url(#screen-1__shape-3-clipping);
+        &-overlay {
+            opacity: 0.5;
+        }
+    }
+    &__shape-4 {
+        position: absolute;
+        top: 578px;
+    }
+    &__shape-5 {
+        position: absolute;
+        left: 1117.5px;
+        top: 461px;
+    }
+    &__shape-6 {
+        position: absolute;
+        left: .5px;
+    }
+    &__shape-7 {
+        position: absolute;
+        left: 756px;
+        background-color: #C62639;
+        @mixin i Budboat1-8, png;
+        background-position: 2px -135px;
+        background-size: 82.2%;
+        clip-path: url(#screen-1__shape-7-clipping);
+        &-overlay {
+            opacity: 0.5;
+        }
+    }
+    &__shape-8 {
+        position: absolute;
+        width: 2250.44px;
+        height: 696.61px;
+        left: -208.56px;
+        top: -202px;
+    }
+    &__shape-9 {
+        position: absolute;
+        width: 2250.44px;
+        height: 696.61px;
+        left: -208.56px;
+        top: -202px;
+    }
+    &__language-change {
+        position: absolute;
+        height: 21px;
+        left: 93.44%;
+        right: 2.34%;
+        top: calc(50% - 21px/2 - 434.5px);
+        line-height: 19px;
+        font-size: 20px;
+        text-transform: uppercase;
+        cursor: pointer;
+        z-index: 3;
+        &_active {
+            border-bottom: 1px solid #E5E5E5;
+        }
+    }
+    &__title {
+        position: absolute;
+        height: 103px;
+        left: 20.36%;
+        right: 56.56%;
+        top: calc(50% - 103px/2 - 359.5px);
+        line-height: 94px;
+        font-size: 100px;
+    }
+    &__subtitle {
+        position: absolute;
+        height: 89px;
+        left: 23.91%;
+        right: 54.32%;
+        top: calc(50% - 89px/2 - 250.5px);
+        line-height: normal;
+        font-size: 18px;
+    }
+    &__photo-report {
+        position: absolute;
+        height: 31px;
+        left: 23.85%;
+        right: 68.49%;
+        top: calc(50% - 31px/2 + 2.5px);
+        line-height: 28px;
+        font-size: 30px;
+        text-decoration-line: underline;
+        text-transform: uppercase;
+        font-family: inherit;
+        color: inherit;
+    }
+    &__your-age-box {
+        position: absolute;
+        width: 1920px;
+        height: 1010px;
+        left: 0px;
+        top: 70px;
+        background: rgba(198, 38, 57, 0.8);
+        backdrop-filter: blur(20px);
+        z-index: 2;
+    }
+    &__your-age-title {
+        position: absolute;
+        height: 103px;
+        left: 36.04%;
+        right: 40.89%;
+        top: calc(50% - 103px/2 - 166.5px);
+        line-height: 94px;
+        font-size: 100px;
+    }
+    &__your-age-confirm-age {
+        position: absolute;
+        height: 80px;
+        left: 39.48%;
+        right: 38.75%;
+        top: calc(50% - 80px/2 + 16px);
+        line-height: normal;
+        font-size: 18px;
+    }
+    &__your-age-day-box {
+        position: absolute;
+        width: 71px;
+        min-height: 50px;
+        max-height: 358px;
+        left: 758px;
+        top: 551px;
+        color: #002F63;
+        .edd-arrow {
+            right: 14px;
+        }
+    }
+    &__your-age-month-box {
+        position: absolute;
+        width: 137px;
+        height: 50px;
+        left: 849px;
+        top: 551px;
+        .edd-arrow {
+            right: 12.5px;
+        }
+    }
+    &__your-age-year-box {
+        position: absolute;
+        width: 108px;
+        height: 50px;
+        left: 1006px;
+        top: 551px;
+        .edd-arrow {
+            right: 12.5px;
+        }
+    }
+    &__enter-button {
+        position: absolute;
+        height: 50.07px;
+        width: 1440px;
+        left: 210px;
+        top: calc(50% - 50.07px/2 + 150.03px);
+        background: #002F63;
+        transform: matrix(-1, 0, 0, 1, 0, 0);
+        display: block;
+        border: none;
+        color: #fff;
+        line-height: normal;
+        font-size: 25px;
+        text-align: center;
+        text-transform: uppercase;
+        &:hover {
+            background: rgb(2, 38, 80);
+        }
+    }
+
+    /* Стили для скролла */
+    ::-webkit-scrollbar-button {
+        background-image:url('');
+        background-repeat:no-repeat;
+        width:5px;
+        height:0px
+        }
+        
+        ::-webkit-scrollbar-track {
+        background-color: #fff;
+        margin-bottom: 10px;
+        }
+        
+        ::-webkit-scrollbar-thumb {
+        -webkit-border-radius: 0px;
+        border-radius: 0px;
+        background-color:#002F63;
+        }
+        
+        ::-webkit-scrollbar-thumb:hover{
+        background-color:#002F63;
+        }
+        
+        ::-webkit-resizer{
+        background-image:url('');
+        background-repeat:no-repeat;
+        width:4px;
+        height:0px;
+        }
+        
+        ::-webkit-scrollbar{
+        width: 8px;
+        }
+}
+
+
+
+

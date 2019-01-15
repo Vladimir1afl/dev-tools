@@ -63,3 +63,13 @@
     font-weight: 300;
     font-style: normal;
 }
+
+/* Шрифт для тестового задания */
+@font-face {
+    font-family: 'BudBoldCyr';
+    src: url('/fonts/BudBoldCyr/Bud-Bold-Cyr.woff2') format('woff2'),
+        url('/fonts/BudBoldCyr/Bud-Bold-Cyr.woff') format('woff'),
+        url('/fonts/BudBoldCyr/Bud-Bold-Cyr.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}

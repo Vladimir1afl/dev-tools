@@ -2,6 +2,24 @@
 <!-- CONTENT END -->
 <!-- ########### -->
 
-<script src="/bundles/webpack/desktop.bundle.js"></script>
+<!-- <script src="/bundles/webpack/desktop.bundle.js"></script> -->
+
+<script src="/node_modules/easydropdown-4/bundle/easydropdown.js"></script>
+<script>
+    // ↓ не забудь перенести в файл со скриптами!
+    // инициализация селектов
+    easydropdown.all();
+
+    // закрывает всплывающую форму
+    var
+        screen1EnterButton = document.querySelector('.screen-1__enter-button'),
+        screen1YourAgeBox  = document.querySelector('.screen-1__your-age-box');
+    
+    screen1EnterButton.onclick = function() {
+        if(screen1YourAgeBox != 'undefined') {
+            screen1YourAgeBox.style.display = 'none';
+        }
+    }
+</script>
 </body>
 </html>

@@ -2,7 +2,11 @@
 @import url(css/desktop/_mixin.css);
 @import url(css/desktop/_default.css);
 
-@import url(../public/node_modules/cropper/dist/cropper.css);
+/* @import url(../public/node_modules/cropper/dist/cropper.css); */
 @import url(../public/node_modules/swiper/dist/css/swiper.css);
 
-@import url(css/desktop/footer.css);
+/* @import url(css/desktop/footer.css); */
+
+/* Стили для тестового задания */
+@import url(css/desktop/test-task.css);
+@import url(css/desktop/select-style.css);
