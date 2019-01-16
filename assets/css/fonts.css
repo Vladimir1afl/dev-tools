@@ -73,3 +73,22 @@
     font-weight: normal;
     font-style: normal;
 }
+@font-face {
+    font-family: 'PFDinTextCondPro';
+    src: url('/fonts/PFDinTextCondPro/PF-Din-Text-Cond-Pro.woff2') format('woff2'),
+        url('/fonts/PFDinTextCondPro/PF-Din-Text-Cond-Pro.woff') format('woff'),
+        url('/fonts/PFDinTextCondPro/PF-Din-Text-Cond-Pro.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'fontello';
+    src: url('/fonts/fontello_fb-youtube/font/fontello.eot?40627629');
+    src: url('/fonts/fontello_fb-youtube/font/fontello.eot?40627629#iefix') format('embedded-opentype'),
+         url('/fonts/fontello_fb-youtube/font/fontello.woff2?40627629') format('woff2'),
+         url('/fonts/fontello_fb-youtube/font/fontello.woff?40627629') format('woff'),
+         url('/fonts/fontello_fb-youtube/font/fontello.ttf?40627629') format('truetype'),
+         url('/fonts/fontello_fb-youtube/font/fontello.svg?40627629#fontello') format('svg');
+    font-weight: normal;
+    font-style: normal;
+  }

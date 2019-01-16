@@ -10,3 +10,5 @@
 /* Стили для тестового задания */
 @import url(css/desktop/test-task.css);
 @import url(css/desktop/select-style.css);
+/* Стили для шрифтовых иконок fb и youtube */
+@import url(css/desktop/fontello.css);
